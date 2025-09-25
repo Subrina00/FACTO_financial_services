@@ -7,12 +7,12 @@ function HeroDashboard() {
       <nav className="flex justify-around items-center px-8 py-4 bg-white shadow fixed w-full z-100">
         <div className="w-[100px]"><img src="images/Casa logo.png" alt="" /></div>
         <ul className="hidden md:flex gap-6 text-gray-800 font-medium">
-          <li className="hover:text-green-700 duration-300"><a href="#">Services</a></li>
-          <li className="hover:text-green-700 duration-300"><a href="#">How it works</a></li>
-          <li className="hover:text-green-700 duration-300"><a href="#">Why is different</a></li>
-          <li className="hover:text-green-700 duration-300"><a href="#">Reviews</a></li>
-          <li className="hover:text-green-700 duration-300"><a href="#">Pricing</a></li>
-          <li className="hover:text-green-700 duration-300"><a href="#">Contact</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#services">Services</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#how-it-works">How it works</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#why-different">Why is different</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#reviews">Reviews</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#pricing">Pricing</a></li>
+          <li className="hover:text-green-700 duration-300"><a href="#contact">Contact</a></li>
         </ul>
         <div className="flex gap-4">
           <button className="p-[6px_20px] text-green-900 rounded-4xl bg-green-100 cursor-pointer duration-300 hover:opacity-80">Sign In</button>
@@ -46,17 +46,17 @@ function HeroDashboard() {
       <section className="flex justify-center items-center gap-20">
         {/* Card 1 */}
         <div className="w-[300px] bg-transparent">
-          <img src="/images/Card 1.png" alt="" />
+          <img src="images/Card 1.png" alt="" />
         </div>
 
         {/* Card 2 */}
         <div className="w-[300px] bg-transparent">
-          <img src="/images/Card 2.png" alt="" />
+          <img src="images/Card 2.png" alt="" />
         </div>
 
         {/* Card 3 */}
         <div className="w-[300px] bg-transparent">
-          <img src="/images/Card 3.png" alt="" />
+          <img src="images/Card 3.png" alt="" />
         </div>
       </section>
       <br/>
@@ -75,19 +75,19 @@ function HeroDashboard() {
         </h2>
         <p className="mt-2 text-xl text-white font-semibold">Top Companies</p>
       </div>
-      <div><img src="/images/Line 28.png" alt="" /></div>
+      <div><img src="images/Line 28.png" alt="" /></div>
 
       {/* Logos */}
 
-      <div className="inline-flex gap-1"><img className="w-[20px]" src="/images/Vector.png" alt="" /><p className="text-white font-semibold text-xl">Cubyn</p></div>
+      <div className="inline-flex gap-1"><img className="w-[20px]" src="images/Vector.png" alt="" /><p className="text-white font-semibold text-xl">Cubyn</p></div>
 
-      <div className="inline-flex gap-1"><img className="w-[20px]" src="/images/Bastion.png" alt="" /><p className="text-white font-semibold text-xl">bastion</p></div>
+      <div className="inline-flex gap-1"><img className="w-[20px]" src="images/Bastion.png" alt="" /><p className="text-white font-semibold text-xl">bastion</p></div>
 
-      <div className="inline-flex gap-1"><img className="w-[20px]" src="/images/Digit.png" alt="" /><p className="text-white font-semibold text-xl tracking-widest">DIGITS</p></div>
+      <div className="inline-flex gap-1"><img className="w-[20px]" src="images/Digit.png" alt="" /><p className="text-white font-semibold text-xl tracking-widest">DIGITS</p></div>
 
-      <div className="inline-flex gap-1"><img className="w-[20px]" src="/images/Pipe.png" alt="" /><p className="text-white font-semibold text-xl">pipe</p></div>
+      <div className="inline-flex gap-1"><img className="w-[20px]" src="images/Pipe.png" alt="" /><p className="text-white font-semibold text-xl">pipe</p></div>
 
-      <div className="inline-flex gap-1"><img className="w-[20px]" src="/images/Ramp.png" alt="" /><p className="text-white font-semibold text-xl">ramp</p></div>
+      <div className="inline-flex gap-1"><img className="w-[20px]" src="images/Ramp.png" alt="" /><p className="text-white font-semibold text-xl">ramp</p></div>
      
     </section>
 
@@ -98,7 +98,7 @@ function HeroDashboard() {
     {/* second page */}
 
 
-     <section className="py-20 bg-gray-50 px-6 md:px-16">
+     <section className="py-20 bg-gray-50 px-6 md:px-16" id="services">
 
       <div className="flex flex-col md:flex-row justify-around items-center gap-10">
         <div className="flex flex-col justify-center items-start w-[450px]">
@@ -123,7 +123,7 @@ function HeroDashboard() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-20 mt-20">
         <div className="bg-gray-100 rounded-[10px] p-6 w-[300px] cursor-pointer hover:scale-105 duration-300 shadow-xl">
           <h4 className="font-bold text-gray-900 text-xl mb-4">Secure and Instant Cash Advances</h4>
-          <img className="w-[40px]" src="/images/Icon 1.png" alt="" />
+          <img className="w-[40px]" src="images/Icon 1.png" alt="" />
           <p className="mt-4 text-gray-600 text-sm">
             No more waiting weeks—convert daily credit card transactions into
             cash within 24 hours to keep your business running smoothly.
@@ -132,7 +132,7 @@ function HeroDashboard() {
 
         <div className="bg-gray-100 rounded-[10px] p-6 w-[300px] cursor-pointer hover:scale-105 duration-300 shadow-xl">
             <h4 className="font-bold text-gray-900 text-xl mb-4">Transparent and Fair Pricing Process</h4>
-            <img className="w-[40px]" src="/images/Icon 2.png" alt="" />
+            <img className="w-[40px]" src="images/Icon 2.png" alt="" />
             <p className="text-gray-600 mt-4 text-sm">
               No hidden fees, no surprises—enjoy clear, upfront pricing with flexible funding options.
                So you always know what to expect.
@@ -141,7 +141,7 @@ function HeroDashboard() {
 
         <div className="bg-green-800 rounded-[10px] p-6 w-[300px] cursor-pointer hover:scale-105 duration-300 shadow-xl">
             <h4 className="font-bold text-white text-xl mb-4">Flexible and Secure Payout Options</h4>
-            <img className="w-[40px]" src="/images/Icon 3.png" alt="" />
+            <img className="w-[40px]" src="images/Icon 3.png" alt="" />
             <p className="text-white mt-4 text-sm">
               We offer flexible and easy payout options tailored to your needs, ensuring quick eccess to your funds.
                Choose from multiple payment methods.
@@ -158,7 +158,7 @@ function HeroDashboard() {
 
 
 
-    <section className="py-20 bg-white px-6 md:px-16">
+    <section className="py-20 bg-white px-6 md:px-16" id="how-it-works">
 
       <div className="flex flex-col justify-center items-center gap-5">
         <h2 className="text-sm md:text-base font-semibold text-center text-green-900 bg-green-100 p-[6px_15px] w-[150px] rounded-4xl">How it works</h2>
@@ -177,7 +177,7 @@ function HeroDashboard() {
     <div className="flex flex-col md:flex-row justify-center items-center gap-20 mt-20">
 
         <div className="w-[300px] shadow-xl rounded-[10px] cursor-pointer hover:scale-105 duration-300">
-            <img className="px-4 w-full m-1 mt-6" src="/images/Sign up form.png" alt="" />
+            <img className="px-4 w-full m-1 mt-6" src="images/Sign up form.png" alt="" />
             <h3 className="text-xl font-bold text-gray-900 px-4 mx-1 my-2">Connect Your Business</h3>
             <p className="text-gray-500 text-sm md:text-base px-4 mx-1 my-2">Sign up and link your credit card processor or POS system with CASA.
                  We support all major payment providers.</p>
@@ -186,7 +186,7 @@ function HeroDashboard() {
         </div>
 
         <div className="w-[300px] shadow-xl rounded-[10px] cursor-pointer hover:scale-105 duration-300">
-            <img className="px-4 w-full m-1 mt-6" src="/images/Graphic Content.png" alt="" />
+            <img className="px-4 w-full m-1 mt-6" src="images/Graphic Content.png" alt="" />
             <h3 className="text-xl font-bold text-gray-900 px-4 mx-1 my-2">Transactions for Early Payment</h3>
             <p className="text-gray-500 text-sm md:text-base px-4 mx-1 my-2">Every morning, your previous day’s credit card transactions are 
                 automatically submitted for funding</p>
@@ -195,7 +195,7 @@ function HeroDashboard() {
         </div>
 
         <div className="w-[300px] shadow-xl rounded-[10px] cursor-pointer hover:scale-105 duration-300">
-            <img className="px-4 w-full m-1 mt-6" src="/images/Graphic content 2.png" alt="" />
+            <img className="px-4 w-full m-1 mt-6" src="images/Graphic content 2.png" alt="" />
             <h3 className="text-xl font-bold text-gray-900 px-4 mx-1 my-2">Receive Funds & Grow</h3>
             <p className="text-gray-500 text-sm md:text-base px-4 mx-1 my-2">Every morning, your previous day’s credit card transactions are 
                 automatically submitted for funding</p>
@@ -213,7 +213,7 @@ function HeroDashboard() {
     {/* fourth page */}
 
 
-    <section className="py-20 bg-gray-50 px-6 md:px-16">
+    <section className="py-20 bg-gray-50 px-6 md:px-16" id="why-different">
 
     <div className="flex flex-col justify-center items-center gap-5">
         <h2 className="text-sm font-semibold text-center text-green-900 bg-green-100 p-[6px_15px] w-[200px] rounded-4xl">Why CASA Different</h2>
@@ -231,9 +231,9 @@ function HeroDashboard() {
 
     <div className="flex flex-col md:flex-row justify-center items-center gap-50 mt-15">
         <div className="flex flex-col justify-center items-start gap-4 w-[380px] bg-green-100 rounded-[20px] relative">
-            <img className="w-10/12 px-4 mt-6" src="/images/1.png" alt="" />
-            <img className="w-11/12 px-4 mb-8" src="/images/2.png" alt="" />
-            <img className="absolute bottom-[80px] -right-[160px] w-[200px]" src="/images/pic.png" alt="" />
+            <img className="w-10/12 px-4 mt-6" src="images/1.png" alt="" />
+            <img className="w-11/12 px-4 mb-8" src="images/2.png" alt="" />
+            <img className="absolute bottom-[80px] -right-[160px] w-[200px]" src="images/pic.png" alt="" />
         </div>
         <div className="flex flex-col justify-center items-start gap-4 w-[380px] bg-gray-100 rounded-[20px]">
             <p className="mt-6 mx-4 text-gray-950 font-semibold text-xl">CASA offers instant, flexible funding directly from card transactions.</p>
@@ -256,7 +256,7 @@ function HeroDashboard() {
 
 
 
-     <section className="py-20 bg-white px-6 md:px-16">
+     <section className="py-20 bg-white px-6 md:px-16" id="reviews">
 
     <div className="flex flex-col justify-center items-center gap-5">
         <h2 className="text-sm font-semibold text-center text-green-900 bg-green-100 p-[6px_15px] w-[110px] rounded-4xl">Reviews</h2>
@@ -272,8 +272,8 @@ function HeroDashboard() {
       <div className="mt-15 grid md:grid-cols-2 gap-20 max-w-4xl mx-auto">
         <div className="bg-gray-50 shadow rounded-2xl p-8">
             <div className="flex justify-between items-center mb-4">
-                <img className="w-[100px]" src="/images/Frame 795.png" alt="" />
-                <img className="w-[100px]" src="/images/Other Company.png" alt="" />
+                <img className="w-[100px]" src="images/Frame 795.png" alt="" />
+                <img className="w-[100px]" src="images/Other Company.png" alt="" />
             </div>
             <p className="text-2xl font-semibold mb-4">"Game-Changer for My Business!"</p>
             
@@ -285,7 +285,7 @@ function HeroDashboard() {
                 huge plus.
             </p>
             <div className="mt-6 flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full"><img src="/images/Profile image.png" alt="" /></div>
+                <div className="w-12 h-12 rounded-full"><img src="images/Profile image.png" alt="" /></div>
                 <div>
                     <h4 className="font-semibold text-gray-900">Michael R.</h4>
                     <p className="text-sm text-gray-600">Restaurant Owner</p>
@@ -295,8 +295,8 @@ function HeroDashboard() {
 
         <div className="bg-gray-50 shadow rounded-2xl p-8">
             <div className="flex justify-between items-center mb-4">
-                <img className="w-[100px]" src="/images/Frame 795.png" alt="" />
-                <img className="w-[100px]" src="/images/axway.png" alt="" />
+                <img className="w-[100px]" src="images/Frame 795.png" alt="" />
+                <img className="w-[100px]" src="images/axway.png" alt="" />
             </div>
             <p className="text-2xl font-semibold mb-4">"Fast, Reliable, and Stress-Free!"</p>
             
@@ -307,7 +307,7 @@ function HeroDashboard() {
                 huge plus.
             </p>
             <div className="mt-6 flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full"><img src="/images/sarah.png" alt="" /></div>
+                <div className="w-12 h-12 rounded-full"><img src="images/sarah.png" alt="" /></div>
                 <div>
                     <h4 className="font-semibold text-gray-900">Sarah M.</h4>
                     <p className="text-sm text-gray-600">Café Owner</p>
@@ -324,7 +324,7 @@ function HeroDashboard() {
 
 
 
-    <section className="py-20 bg-gray-50 px-6 md:px-16">
+    <section className="py-20 bg-gray-50 px-6 md:px-16" id="pricing">
 
     <div className="flex flex-col justify-center items-center gap-5">
         <h2 className="text-sm font-semibold text-center text-green-900 bg-green-100 p-[6px_15px] w-[110px] rounded-4xl">Pricing</h2>
@@ -393,7 +393,7 @@ function HeroDashboard() {
 
 
 
-    <section className="py-20 bg-white px-6 md:px-16">
+    <section className="py-20 bg-white px-6 md:px-16" id="contact">
 
     <div className="flex flex-col justify-center items-center gap-5">
         <h2 className="text-sm font-semibold text-center text-green-900 bg-green-100 p-[6px_15px] w-[110px] rounded-4xl">Contact</h2>
@@ -437,8 +437,8 @@ function HeroDashboard() {
 
 
         <div className="w-[450px] bg-gray-50 rounded-[10px]">
-            <div className="w-[300px] z-10 ml-[130px] mt-8 mb-2"><img className="w-full" src="/images/form 1.png" alt="" /></div>
-            <div className="relative ml-[130px] -top-[120px] right-[40px] z-1 mb-4"><img className="w-[180px]" src="/images/form 2.png" alt="" /></div>
+            <div className="w-[300px] z-10 ml-[130px] mt-8 mb-2"><img className="w-full" src="images/form 1.png" alt="" /></div>
+            <div className="relative ml-[130px] -top-[120px] right-[40px] z-1 mb-4"><img className="w-[180px]" src="images/form 2.png" alt="" /></div>
         </div>
 
     </div>
@@ -473,7 +473,7 @@ function HeroDashboard() {
       <div className="flex flex-col md:flex-row justify-around items-center gap-10">
         {/* About / Description */}
         <div className="w-[300px]">
-            <img className="w-[100px] my-4" src="/images/Casa logo.png" alt="" />
+            <img className="w-[100px] my-4" src="images/Casa logo.png" alt="" />
            <p className="text-base text-gray-600 mb-4">CASA provides fast, reliable, and transparent factoring services,
                 helping business owners turn credit card transactions into instant cash flow.
             </p>
