@@ -5,7 +5,7 @@ function HeroDashboard() {
     <div className="bg-gray-50 min-h-screen">
       {/* Navbar */}
       <nav className="flex justify-around items-center px-8 py-4 bg-white shadow fixed w-full z-100">
-        <div className="w-[100px]"><img src="/Casa logo.png" alt="" /></div>
+        <div className="w-[100px]"><img src="/casa-logo.png" alt="" /></div>
         <ul className="hidden md:flex gap-6 text-gray-800 font-medium">
           <li className="hover:text-green-700 duration-300"><a href="#">Services</a></li>
           <li className="hover:text-green-700 duration-300"><a href="#">How it works</a></li>
