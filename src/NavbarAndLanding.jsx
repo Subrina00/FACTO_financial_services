@@ -5,7 +5,7 @@ function HeroDashboard() {
     <div className="bg-gray-50 min-h-screen">
       {/* Navbar */}
       <nav className="flex justify-around items-center px-8 py-4 bg-white shadow fixed w-full z-100">
-        <div className="w-[100px]"><img src="/casa-logo.png" alt="" /></div>
+        <div className="w-[100px]"><img src="images/Casa logo.png" alt="" /></div>
         <ul className="hidden md:flex gap-6 text-gray-800 font-medium">
           <li className="hover:text-green-700 duration-300"><a href="#">Services</a></li>
           <li className="hover:text-green-700 duration-300"><a href="#">How it works</a></li>
@@ -28,7 +28,7 @@ function HeroDashboard() {
       <section className="text-center py-16 px-6">
         <div className="flex justify-center items-center"><p className="text-[10px] md:text-sm font-semibold text-green-900 bg-green-100 rounded-4xl p-[6px_20px] w-[200px]">Fast. secure. hassle-free</p></div>
         <h2 className="inline-flex text-xl md:text-4xl font-semibold mt-4 text-black">
-          Get Paid Faster <span className="w-[50px] h-[40px] px-1 pt-2"><img src="/images/Illustration.png" alt="" /></span> Instant Cash for Businesses!
+          Get Paid Faster <span className="w-[50px] h-[40px] px-1 pt-2"><img src="images/Illustration.png" alt="" /></span> Instant Cash for Businesses!
         </h2>
         <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
           Stop waiting months for credit card payments. CASA helps business
